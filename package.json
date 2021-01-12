@@ -1,7 +1,8 @@
 {
   "name": "react-simple-popover",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "It's is a super simple popover",
+  "main": "build/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -18,9 +19,26 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devdany/react-simple-popover"
+  },
+  "author": {
+    "name": "devdany",
+    "email": "dayong7387@gmail.com",
+    "url": "https://github.com/devdany"
+  },
+  "keywords": [
+    "npm",
+    "react",
+    "popover"
+  ],
+  "homepage": "https://github.com/devdany/react-simple-popover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdany/react-simple-popover/issues"
   },
   "eslintConfig": {
     "extends": [
