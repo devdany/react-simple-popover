@@ -1,11 +1,12 @@
 {
   "name": "react-super-simple-popover",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "It's is a super simple popover",
   "main": "dist/js/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/js/index.d.ts",
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
     "@babel/plugin-transform-typescript": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

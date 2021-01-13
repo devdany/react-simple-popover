@@ -26,8 +26,8 @@ export default function Popover({
       };
     }
 
-    let leftResut = buttonEl?.offsetLeft;
-    let topResult = buttonEl?.offsetTop + buttonEl.clientHeight + DEFAULT_POPOVER_MARGIN_TOP; // 오른쪽으로 넘어버리면
+    let leftResut = buttonEl === null || buttonEl === void 0 ? void 0 : buttonEl.offsetLeft;
+    let topResult = (buttonEl === null || buttonEl === void 0 ? void 0 : buttonEl.offsetTop) + buttonEl.clientHeight + DEFAULT_POPOVER_MARGIN_TOP; // 오른쪽으로 넘어버리면
 
     if (leftResut + contentEl.clientWidth > document.body.clientWidth) {
       leftResut -= leftResut + contentEl.clientWidth - document.body.clientWidth + DEFAULT_POPOVER_MARGIN_LEFT;
