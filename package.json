@@ -1,6 +1,6 @@
 {
   "name": "react-super-simple-popover",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "It's is a super simple popover",
   "main": "dist/js/index.js",
   "module": "dist/esm/index.js",
