@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-popover",
+  "name": "react-super-simple-popover",
   "version": "0.0.1",
   "description": "It's is a super simple popover",
   "main": "build/index.js",
@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
